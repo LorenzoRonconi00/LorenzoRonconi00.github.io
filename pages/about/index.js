@@ -25,20 +25,19 @@ const aboutData = [
     info: [
       {
         title: 'Web Development',
-        icons: 
-          <FaHtml5 />,
+
       },
       {
         title: 'Database',
-        icons: <FaDatabase />,
+        
       },
       {
         title: 'C/C++/C# Programmer',
-        icons: <FaAtom />,
+        
       },
       {
         title: 'Python / Java Programmer',
-        icons: <FaAtom />,
+        
       },
     ],
   },
@@ -168,15 +167,7 @@ const About = () => {
                   <div className="hidden md:flex">-</div>
                   <div>{item.stage}</div>
                   <div className="flex gap-x-4">
-                    {item.icons?.map((icon, iconIndex) => {
-                      return (
-                        <div 
-                        key={iconIndex} 
-                        className="text-2xl text-white">
-                          {icon}
-                        </div>
-                      );
-                    })}
+                    
                 </div>
               </div>
               );
