@@ -25,24 +25,20 @@ const aboutData = [
     info: [
       {
         title: 'Web Development',
-        icons: [
+        icons: 
           <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-        ],
       },
       {
         title: 'Database',
-        icons: [<FaDatabase />,],
+        icons: <FaDatabase />,
       },
       {
         title: 'C/C++/C# Programmer',
-        icons: [<FaAtom />,],
+        icons: <FaAtom />,
       },
       {
         title: 'Python / Java Programmer',
-        icons: [<FaAtom />,],
+        icons: <FaAtom />,
       },
     ],
   },
