@@ -32,7 +32,7 @@ const Home = () => {
             Creazione di soluzioni tecniche robuste e scalabili, insieme a interfacce utente 
             coinvolgenti e intuitive. Interesse sia per il backend che frontend, ma il mio amore 
             per lo sviluppo videoludico si riflette in progetti che uniscono la mia 
-            competenza tecnica all'entusiasmo per la creazione di esperienze di gioco uniche 
+            competenza tecnica all entusiasmo per la creazione di esperienze di gioco uniche 
             e coinvolgenti.
           </motion.p>
           <div className="flex justify-center xl:hidden relative">
